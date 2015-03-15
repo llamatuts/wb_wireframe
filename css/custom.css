@@ -1,0 +1,26 @@
+/* POINTLESS CIRCLE */
+
+.circle {
+  /* specify width and padding-top as percentages.
+   * width must equal padding-top. */
+
+  border: 1px solid black;
+  border-radius: 50%;
+  height: auto;
+}
+
+/* must call as "class="circle circle-xx" */
+.circle-xs  { width: 3%;   padding-top: 3%;   }
+.circle-sm  { width: 5%;   padding-top: 5%;   }
+.circle-md  { width: 10%;  padding-top: 10%;  }
+.circle-lg  { width: 33%;  padding-top: 33%;  }
+.circle-xl  { width: 50%;  padding-top: 50%;  }
+.circle-xxl { width: 100%; padding-top: 100%; }
+
+#footer {
+  position: relative;
+}
+
+#footer .jumbotron {
+  height: 250px;
+}
